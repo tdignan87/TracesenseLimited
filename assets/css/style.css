@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Source+Sans+Pro:wght@600&display=swap');
+.jumbotron {
+    background-image: url("../pictures/JumboPicture.jpg");
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Container holding the image and the text */
+
+.container {
+    position: relative;
+}
+
+.main {
+    background-color: #42bfe0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.secondary {
+    background-color: #42bfe0;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+.card-title {
+    background-color: #0069a8;
+    color: #fafafa;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+
+/* Bottom right text */
