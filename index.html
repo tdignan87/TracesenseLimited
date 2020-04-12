@@ -5,12 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Traceability Solutions</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Tracesense</a>
+        <a class="navbar-brand" href="#">
+            <img class="navbar-image" src="assets/pictures/TraceSense_RGB_Trans.png" width="180" height="50" alt="Logo">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,7 +23,7 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">What We Do</a>
+                    <a class="nav-link" id="heading-one" href="#">What We Do</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">About Us</a>
@@ -38,100 +41,94 @@
 
     <!-- Jumbotron on main page.-->
     <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
-        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button"> Eliminate Risk & Improve Your Business Performance - Click here to find out more!</a>
     </div>
 
     <div class="container">
 
-        <div class="row">
+        <div class="row" id="main-container">
             <div class="col-md-8 mb-5">
-                <h2>What We Do</h2>
+                <h2 class="main">What We Do</h2>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A deserunt neque tempore recusandae animi soluta quasi? Asperiores rem dolore eaque vel, porro, soluta unde debitis aliquam laboriosam. Repellat explicabo, maiores!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis optio neque consectetur consequatur magni in nisi, natus beatae quidem quam odit commodi ducimus totam eum, alias, adipisci nesciunt voluptate. Voluptatum.</p>
+                <p><strong>Tracesense Software</strong> helps you manage your business information, from auditing software to vision inspection systems on your production lines and controlling your printers.</p>
+                <p>What could potentially happen if you placed the wrong information on your product? Could this lead to a full scale recall? <strong>Tracesense Software</strong> can help you reduce the risk of this happening.</p>
+                <p>We are experts in the three main areas below although we can provide bespoke software if required.</p>
                 <a class="btn btn-primary btn-lg" href="#">Call to Action &raquo;</a>
             </div>
             <div class="col-md-4 mb-5">
-                <h2>Contact Us</h2>
+                <h2 class="secondary">Contact Us</h2>
                 <hr>
                 <address>
-              <strong>Start Bootstrap</strong>
-              <br>3481 Melrose Place
-              <br>Beverly Hills, CA 90210
-              <br>
+              <strong>Tracesense Limited</strong>
+              <a href="mailto:#">info@tracesense.co.uk</a>
+              <br>07552586517
             </address>
-                <address>
-              <abbr title="Phone">P:</abbr>
-              (123) 456-7890
-              <br>
-              <abbr title="Email">E:</abbr>
-              <a href="mailto:#">name@example.com</a>
-            </address>
-            </div>
-        </div>
-        <!-- /.row -->
+                <div class="container">
+                    <img src="/assets/pictures/TraceSense_RGB.jpg" alt="Tracesense" style="width:100%;">
+                </div>
 
-        <div class="row">
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+            <!-- /.row -->
+
+            <div class="row">
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Vision Systems</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find Out More!</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 mb-5">
-                <div class="card h-100">
-                    <img class="card-img-top" src="http://placehold.it/300x200" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Card title</h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-                    </div>
-                    <div class="card-footer">
-                        <a href="#" class="btn btn-primary">Find Out More!</a>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Autocoding</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find Out More!</a>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-4 mb-5">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title">Electronic Auditing</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Find Out More!</a>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-        </div>
-        <!-- /.row -->
+            <!-- /.row -->
 
-    </div>
-    <!-- /.container -->
-
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
         </div>
         <!-- /.container -->
-    </footer>
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+            </div>
+            <!-- /.container -->
+        </footer>
 
 
 
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>
