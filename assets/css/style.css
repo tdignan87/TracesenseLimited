@@ -32,5 +32,10 @@
     padding-bottom: 1rem;
 }
 
+.btn-primary {
+    background-color: #42bfe0;
+    color: #0069a8;
+}
+
 
 /* Bottom right text */
