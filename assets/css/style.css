@@ -18,12 +18,14 @@
     background-color: #0069a8;
     padding-bottom: 1rem;
     text-align: center;
+    color: #fafafa;
 }
 
 .secondary {
     background-color: #0069a8;
     padding-bottom: 1rem;
     text-align: center;
+    color: #fafafa;
 }
 
 .card-title {
@@ -34,8 +36,8 @@
 }
 
 .btn-primary {
-    background-color: #42bfe0;
-    color: black;
+    background-color: #0069a8;
+    color: #fafafa;
 }
 
 
