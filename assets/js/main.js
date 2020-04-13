@@ -1,3 +1,8 @@
+const relatingTo = ["Hardware", "Software", "Other"];
+
+
+
+
 window.onload = function() {
     $("#aboutUs").hide();
 }

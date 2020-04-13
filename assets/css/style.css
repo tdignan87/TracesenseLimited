@@ -11,6 +11,14 @@
     color: black;
 }
 
+#aboutUsPicture {
+    float: right;
+}
+
+.fillform {
+    text-align: center;
+}
+
 
 /* Container holding the image and the text */
 
